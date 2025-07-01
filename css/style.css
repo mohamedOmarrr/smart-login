@@ -1,0 +1,149 @@
+body {
+    background-image: linear-gradient(45deg ,#192a51, #967aa1);
+}
+
+.container {
+    height: 100vh;
+    perspective: 1000px;
+}
+
+h3 {
+    font-family: "Pacifico", canvas;
+    color: #a38e48;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Pacifico", canvas;
+    color: #a38e48; 
+}
+
+h1 {
+   font-family: "Righteous", sans-serif; 
+}
+
+h4, h5, h6 {
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #c7b67e;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.go-log {
+    color: #c7b67e;
+}
+
+.go-log:hover {
+    color: #a38e48;
+}
+
+.go-sign {
+    color: #c7b67e;
+}
+
+.go-sign:hover {
+    color: #a38e48;
+}
+
+.button:hover {
+    background-color: #a38e48;
+}
+
+.card {
+    height: 65%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s;
+    background-color: #f5e6e8;
+    box-shadow: 0px 0px 5px 0.5px #d5c6e0;
+}
+
+.letter-space {
+    letter-spacing: 3px;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.pass-error, .name-error, .e-error {
+    position: relative;
+    top: -25px;
+    left: 5px;
+}
+
+.E-error, .P-error {
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.card.rotate {
+    transform: rotateY(180deg);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+.custom-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.7s ease;
+}
+
+.custom-dropdown.show {
+    max-height: 300px;
+}
+
+.nav {
+    background-color:#483d64;
+    box-shadow: 0px 0px 10px 0.5px #967aa1;
+}
+
+.nav .container {
+    height: auto;
+}
+
+.welcome {
+    box-shadow: 0 0 7px 1rem #967aa1;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: #d5c6e0;
+}
+
+
+.welcome h1 {
+    font-weight: 800;
+    color: #c7b67e;
+}
+
+i {
+    border: 2px solid;
+    
+}
+
+
+.inner h2, .inner i {
+    color: #e7dab0;
+    cursor: pointer;
+}
+
+.out {
+    border: 2px solid #a38e48;
+    color: #c7b67e;
+    background-color: #ddd8c8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.out:hover {
+    background-color: #a38e48;
+    color: wheat;
+}

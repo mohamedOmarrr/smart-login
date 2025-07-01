@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="card w-100">
+
+            <form class="front w-100 h-100 py-4 d-flex flex-column align-items-center position-absolute">
+                    <h3 class="mb-4 fs-1">SignUp Form</h3>
+                    <input
+                        type="text"
+                        class="form-control w-75 mb-4 position-relative"
+                        name="userName"
+                        id="name"
+                        aria-describedby="helpId"
+                        placeholder="Enter Your name"
+                    />
+                    <small id="helpId" class="text-danger fw-medium d-none name-error w-75">Please, these name had choosen try anthor</small>
+                    
+                    <input
+                        type="text"
+                        class="form-control w-75 mb-4"
+                        name="email"
+                        id="mail"
+                        aria-describedby="helpId"
+                        placeholder="Enter Your Email"
+                    />
+                    <small id="helpId" class="text-danger fw-medium d-none e-error w-75">your E mail must end with @gmail.com</small>
+
+                    
+                    <input
+                        type="text"
+                        class="form-control w-75 mb-4"
+                        name="password"
+                        id="pass"
+                        aria-describedby="helpId"
+                        placeholder="Enter Your Password"
+                    />
+                    
+                    
+                    <input
+                        type="text"
+                        class="form-control w-75 mb-4"
+                        name="password"
+                        id="repass"
+                        aria-describedby="helpId"
+                        placeholder="Re-password To Confirm"
+                    />
+                    <small id="helpId" class="text-danger fw-medium d-none pass-error w-75">Re-password musr match with password</small>
+        
+                <a
+                    name=""
+                    id=""
+                    class="button signUp w-50"
+                    href="#"
+                    role="button"
+                    >SignUp</a
+                >
+
+                <small class="d-block">You have an account? <a href="" class="go-log">Login</a></small>
+                
+            </form>
+            <form class="back w-100 h-100 p-5 d-flex flex-column align-items-center justify-content-center position-absolute">
+                <h2 class="mb-5 fw-bolder letter-space">Login Form</h2>
+
+                <input
+                        type="text"
+                        class="form-control w-100 mb-4 py-3"
+                        name="email"
+                        id=""
+                        aria-describedby="helpId"
+                        placeholder="Enter Your Email"
+                    />
+                    <small id="helpId" class="text-danger fw-medium d-none E-error w-75">Your Email is wrong</small>
+
+                    
+                    <input
+                        type="text"
+                        class="form-control w-100 mb-4 py-3"
+                        name="password"
+                    
+                        aria-describedby="helpId"
+                        placeholder="Enter Your Password"
+                    />
+                    <small id="helpId" class="text-danger fw-medium d-none P-error w-75">Your password is wrong</small>
+                    
+        
+                <a
+                    name=""
+                    class="button login w-50"
+                    href="home.html"
+                    role="button"
+                    >Login</a
+                >
+
+                <small class="d-block">Do not have an account? <a href="" class="go-sign">SignUp</a></small>
+            </form>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
